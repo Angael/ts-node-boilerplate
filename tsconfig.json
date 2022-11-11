@@ -17,13 +17,7 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false,
-
-    // Absolute Imports
-    "baseUrl": ".",
-    "paths": {
-      "@utils/*": ["src/utils/*"]
-    }
+    "strictNullChecks": false
   },
-  "include": ["src"]
+  "include": ["src/**/*", "__tests__/**/*"]
 }
